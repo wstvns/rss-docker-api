@@ -1,0 +1,32 @@
+{
+  "name": "api-para-coleta-de-dados-em-rss",
+  "version": "1.0.0",
+  "description": "API para coletar dados do site Tecmundo em formato RSS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "start"
+  },
+  "keywords": [
+    "coleta",
+    "dados",
+    "RSS",
+    "API"
+  ],
+  "author": "Alberto, Maria, Louise, Stevan",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.654.0",
+    "@aws-sdk/credential-providers": "^3.658.0",
+    "aws-sdk": "^2.1691.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
