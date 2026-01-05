@@ -2,11 +2,11 @@
     <img alt="" title="Banner do projeto" src="./public/assets/banner_sprint_2_3.png" />
 </h1>
 
-## 💻 Sobre o projeto
+## Sobre o projeto
 
-📱 Tecmundo RSS - O objetivo deste projeto é criar uma plataforma web dinâmica que exibe notícias e artigos tecnológicos atualizados do site TecMundo em tempo real, utilizando a tecnologia RSS (Really Simple Syndication). Esse site será voltado para usuários que desejam acessar rapidamente as últimas novidades tecnológicas de maneira prática e centralizada, sem precisar navegar diretamente pelo site TecMundo.
+Tecmundo RSS - O objetivo deste projeto é criar uma plataforma web dinâmica que exibe notícias e artigos tecnológicos atualizados do site TecMundo em tempo real, utilizando a tecnologia RSS (Really Simple Syndication). Esse site será voltado para usuários que desejam acessar rapidamente as últimas novidades tecnológicas de maneira prática e centralizada, sem precisar navegar diretamente pelo site TecMundo.
 
-## 🛠 Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -16,12 +16,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Amazon AWS S3.
 - Amazon AWS EC2.
 
- ## 🖥️ Demonstração da Aplicação
+ ## Demonstração da Aplicação
 <h1 style='align:center'>
     <img alt="" title="Banner do projeto" src="./public/assets/app_rss_production.png" />
 </h1>
 
-## 📏 Como Utilizar o Sistema
+## Como Utilizar o Sistema
 
 1. Clonar o Repositório:
 
@@ -86,7 +86,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 // Para executar o componse na aplicação
 docker-compose up -d 
 ```
-## 📂 Estruturas de pastas
+## Estruturas de pastas
 
 ```
 ├── public
@@ -116,11 +116,11 @@ docker-compose up -d
 └── README.md
 ```
 
-## 🚀 Atividade proposta:
+## Atividade proposta:
 
 Faça uma API em JavaScript/NodeJS implementada em Docker na AWS para extrair informações relevantes de um site com conteúdo em formato RSS. Esta aplicação deve salvar os dados em arquivo JSON dentro de um bucket S3, e permitir a consulta do conteúdo salvo através de uma página html.
 
-## 🚧 Progresso:
+## Progresso:
 
 <table>
   <thead>
@@ -153,7 +153,7 @@ Faça uma API em JavaScript/NodeJS implementada em Docker na AWS para extrair in
    </tbody>
 </table>
 
-## 🚨 Dificuldades do projeto
+## Dificuldades do projeto
   <table>
     <thead>
       <tr>
@@ -189,7 +189,7 @@ Faça uma API em JavaScript/NodeJS implementada em Docker na AWS para extrair in
     </tbody>
   </table>
 
-## ⏳ Futuro do projeto
+## Futuro do projeto
   <table>
     <thead>
       <tr>
